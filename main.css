@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.topnav {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 150, 30);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    border-radius: 20px;
+    color: white;
+}
+
+.index {
+    background-color: rgba(250, 180, 50, 0.596);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.index_txt {
+    color: rgb(0, 0, 0);
+    margin: 26px 0;
+    margin-left: 30px;
+    height: 10px;
+}
+
+.index_txt a {
+    color: rgb(0, 0, 0);
+}
+
+.index_txt a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 14px 16px;
+    border-radius: 20px;
+}
+
+hr {
+    margin: 20px;
+    border-width: 2px;
+}
+
+.my-1 {
+    margin: 8px 0;
+}
+
+.my-2 {
+    margin: 26px 0;
+}
+
+.container {
+    min-height: calc(60vh - 58px - 12vh);
+    margin-top: 20px;
+    background-color: rgba(255, 189, 66, 0.562);
+    border-radius: 20px;
+    overflow: visible;
+}
+
+.how a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.how a:hover {
+    margin-bottom: 20px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.cards {
+    display: flex;
+    overflow: auto;
+
+}
+
+.card-item {
+    display: inline-flexbox;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.card h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.lightbox {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(255, 178, 34);
+    border: 8px;
+    border-style: double;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #f1e1ab;
+    overflow: visible;
+}
+
+.lightbox a:link {
+    color: rgb(255, 255, 255);
+}
+
+.war {
+    color: red;
+}
+
+
+footer {
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    border: 8px;
+    border-style: double;
+}
